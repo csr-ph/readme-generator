@@ -31,6 +31,8 @@ inquirer.prompt([
     }
 ]) 
 const template = `
+    # ${title}
+
     ## ${installation}
 
     ## ${usage}
