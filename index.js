@@ -44,7 +44,7 @@ const template = `
     ## ${license}`
 // TODO: Create a function to write README file
 function writeToFile(title, data, err) {
-    fs.writeFile(title, )
+    fs.writeFile(title, template)
     if (err) throw err;
 }
 
