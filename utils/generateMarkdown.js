@@ -36,6 +36,22 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ## Table of Contents
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [Contribution Guidelines](#contribution-guidelines)
+
+  * [Testing](#testing)
+
+  * [Author Name](#author-name)
+
+  * [Author Email](#author-email)
+
+  * [Github link](#github-link)
+
   ## Installation
 
   ${data.installation}
@@ -58,9 +74,13 @@ function generateMarkdown(data) {
 
   ${data.name}
 
+  ## Author Email
+
+  ${data.email}
+
   ## GitHub link
 
-  ${data.github}
+  https://github.com/${data.github}
   `;
 }
 

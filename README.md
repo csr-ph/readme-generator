@@ -1,35 +1,19 @@
-# test
-  ![License](https://img.shields.io/badge/license-GNU-blue.svg)
+# Readme Generator
 
-  ## Description
+## Description
 
-  test
+A terminal app that generates a README file based on user input.
 
-  ## Installation
+## Usage
 
-  test
+Run the app using the command:
 
-  ## Usage
+```node index```
 
-  test
+## Author
 
-  ## License
-    
-  Licensed under GNU
+Made by csr-ph https://github.com/csr-ph
 
-  ## Contribution Guidelines
+## Video Walkthrough
 
-  test
-
-  ## Testing
-    
-  test
-
-  ## Author Name
-
-  test
-
-  ## GitHub link
-
-  test
-  
+https://youtu.be/5jgYXIPgfjQ

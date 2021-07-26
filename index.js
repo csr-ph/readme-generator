@@ -49,8 +49,13 @@ const questions = [
     },
     {
         type:'input',
-        message:'What is your Github page?',
+        message:'What is your Github name?',
         name:'github'
+    },
+    {
+        type:'input',
+        message:'What is your email?',
+        name:'email'
     }
 ];
 
@@ -63,7 +68,7 @@ function createFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then(responses => {
-            createFile('README.md', writeFile({ ...responses }));
+            createFile('./output/README.md', writeFile({ ...responses }));
         });
 }
 
